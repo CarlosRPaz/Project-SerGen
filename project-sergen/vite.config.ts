@@ -7,4 +7,6 @@ export default defineConfig({
   server: {
     port: 3000,
   }
+
+  // Add vite.config for env variables
 })
