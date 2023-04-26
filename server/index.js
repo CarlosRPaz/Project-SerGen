@@ -25,7 +25,7 @@ app.use(cors())
 
 // Connect to backend server
 app.get("/", (req, res) => {
-    res.send(`Hello, this is the backend. process.env.VITE_DBPASS`);
+    res.send(`Hello, this is the backend.`);
 })
 
 // SELECT all sernums
